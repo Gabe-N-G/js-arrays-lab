@@ -300,7 +300,7 @@ Complete Exercise 15 in the space below:
 // 	[7, 81, 90]
 // ];
 
-total = []
+let total = 0
 
 numArrays.forEach(array => {
     array.forEach(num =>{
