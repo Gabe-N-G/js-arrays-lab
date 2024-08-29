@@ -171,7 +171,7 @@ odds = []
 // oddsForOf = []
 
 for(i = 0; i < nums.length; i++){
-    console.log(nums[i])
+    // console.log(nums[i])
     if(nums[i] % 2 === 1){
         odds.push(nums[i])
     }
@@ -304,7 +304,6 @@ let total = 0
 
 numArrays.forEach(array => {
     array.forEach(num =>{
-        // total.push(num)
         total += num
     }) 
 });
